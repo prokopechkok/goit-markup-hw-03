@@ -1,0 +1,140 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --ocean-color: #404bbf;
+
+  --primary-text-color: #434455;
+  --navyblue-color: #2e2f42;
+  --subtle-text-color: #8e8f99;
+
+  --white: #ffffff;
+  --success-color: #31d0aa;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+
+  --modal-overlay-color: rgba(46, 47, 66, 0.4);
+  --hero-bg-color: rgba(46, 47, 66, 0.7);
+  --modal-bg-color: #fcfcfc;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  font-size: 16px;
+  background-color: var(--white);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--navyblue-color);
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+.header-logo {
+  color: var(--navyblue-color);
+}
+.footer-logo {
+  color: var(--cloud-color);
+}
+.header-nav .link {
+  color: var(--navyblue-color);
+  font-weight: 500;
+}
+.header-link:hover,
+.header-link:focus,
+.header-link:active,
+.team-contact-link:hover,
+.team-contact-link:focus,
+.team-contact-link:active {
+  color: var(--ocean-color);
+}
+
+.header-contacts {
+  font-style: normal;
+}
+.hero {
+  background-color: var(--navyblue-color);
+}
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button {
+  background: var(--primary-brand-color);
+  color: var(--white);
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: var(--ocean-color);
+}
+.secondary-title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.team {
+  background-color: var(--cloud-color);
+}
+.team-list-item {
+  background-color: var(--white);
+  text-align: center;
+}
+.footer {
+  background-color: var(--navyblue-color);
+}
+.footer-text {
+  color: var(--cloud-color);
+}
+/* Portfolio page */
+
+.portfolio-title {
+  line-height: 1.2;
+}
+.portfolio-filter-btn {
+  background-color: var(--cloud-color);
+  color: var(--primary-brand-color);
+}
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus,
+.portfolio-filter-btn:active {
+  color: var(--white);
+}
