@@ -192,8 +192,7 @@ ul {
   letter-spacing: 0.02em;
   margin-bottom: 72px;
 }
-.features-title {
-}
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -208,8 +207,7 @@ ul {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-.work-title {
-}
+
 .work-list {
   display: flex;
   gap: 24px;
