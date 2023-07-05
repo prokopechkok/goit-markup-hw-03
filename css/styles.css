@@ -122,6 +122,7 @@ ul {
   font-weight: 500;
   padding: 24px 0;
 }
+
 .header-link:hover,
 .header-link:focus,
 .header-link:active,
@@ -185,6 +186,7 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .features {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -296,10 +298,9 @@ ul {
   width: calc((100% - 48px) / 3);
   text-align: left;
 }
-/* .portfolio-title,
-.portfolio-text {
-  padding-left: 16px;
-} */
+.project-card-content {
+  border: 1px solid var(--cornflower-color);
+}
 
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus,
