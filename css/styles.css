@@ -22,7 +22,6 @@ body {
   background-color: var(--white);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 1440px;
 }
 h1,
 h2,
@@ -199,7 +198,7 @@ ul {
   gap: 24px;
 }
 .features-list-item {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .subtitle {
   font-size: 20px;
